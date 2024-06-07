@@ -86,7 +86,7 @@ A simple weather forecasting application that provides current weather condition
 
 ## Live Demo
 
-Check out the live demo of the app [here](https://sonali020200.github.io/Deltatech-Gaming-Limited/).
+Check out the live demo of the app [here](https://weather-app-code-world.vercel.app/).
 
 
 ## License
