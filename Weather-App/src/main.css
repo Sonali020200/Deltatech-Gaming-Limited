@@ -1,0 +1,196 @@
+html {
+  height: 100%;
+}
+
+
+.background-video-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background-size: cover;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+}
+
+.heading {
+  font-size: 42px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hue 10s infinite linear;
+}
+
+@keyframes hue {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(-360deg);
+  }
+}
+
+.card {
+  margin-top: 40px;
+}
+.card-body {
+  box-shadow: 5px 2px 20px rgb(46, 46, 59);
+  background-color: #193354;
+}
+
+form.searchBox {
+  margin: 20px auto;
+  width: 400px;
+}
+
+.searchBox input {
+  border-radius: 20px 0 0 20px;
+}
+.searchBox .btn-primary {
+  width: 40px;
+}
+
+.searchBox .btn-secondary {
+  width: 40px;
+  border-radius: 0 20px 20px 0;
+  text-align: center;
+  padding: 0;
+}
+.locationIcon {
+  width: 50%;
+  height: auto;
+}
+
+.currentCity {
+  color: #e2e6f0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.todayInfo {
+  text-align: center;
+  color: #e2e6f0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.todayInfo::first-letter {
+  text-transform: capitalize;
+}
+
+.todayTempInfo {
+  justify-content: center;
+  color: #e2e6f0;
+}
+
+div .todayTemp {
+  display: inline;
+  text-align: right;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 0;
+  max-width: 100px;
+  
+}
+
+div .unit {
+  display: inline;
+  position: relative;
+  left: 0;
+  bottom: 0px;
+  max-width: 100px;
+  
+}
+.unit a {
+  text-decoration: none;
+  
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.todayTempInfo .active {
+  color: #e2e6f0;
+  cursor: default;
+}
+.todayTempInfo .active {
+  text-decoration: none;
+  
+}
+
+.todayIcon {
+  display: inline;
+  width: 30px;
+}
+
+.todayExtra {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 3;
+  color: #e2e6f0;
+}
+
+.dayX {
+  text-align: center;
+  line-height: 3;
+  color: #e2e6f0;
+}
+
+.dayX img {
+  width: 40px;
+}
+
+.dayXtemp_max {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.dayXtemp_min {
+  font-weight: 400;
+}
+.weather_forecast {
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  font-weight: 600;
+  font-size: 14px;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(228, 25, 25);
+}

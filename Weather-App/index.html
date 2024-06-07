@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="src/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,700&family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/bdf175b07c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="background_video w-full">
+        <video autoplay loop muted class="video-background">
+            <source src="https://mazwai.com/videvo_files/video/free/2015-07/small_watermarked/Clouds_1_1_preview.webm" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+    </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h1 class="heading">Weather Forecast</h1>
+          <div class="card">
+            <div class="card-body">
+             
+              <form class="input-group mb-3 searchBox" id="search-form">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search..."
+                  id="search-text"
+                  autocomplete="off"
+                />
+                <button
+                  class="btn btn-primary"
+                  id="search-button"
+                  type="button"
+                >
+                  <i class="fas fa-search"></i>
+                </button>
+                <button
+                  class="btn btn-secondary"
+                  id="location-button"
+                  type="button"
+                >
+                  <i class="fas fa-location"></i>
+                </button>
+              </form>
+              <h1 class="currentCity"></h1>
+              <p class="todayInfo">
+                <span id="current-date"></span>
+              </p>
+              <div class="row todayTempInfo">
+                <div class="col-md-6 todayTemp" id="current-temp"></div>
+                <div class="col-md-6 unit">
+                  <a href="#" id="unit-c" class="active">°C</a> |
+                  <a href="#" id="unit-f">°F</a>
+                </div>
+              </div>
+              <p class="todayInfo">
+                <span id="description"></span>
+                <span>
+                  <img src="" alt="icon" class="todayIcon" id="today-icon"
+                /></span>
+              </p>
+              <div class="row">
+                <div class="col-md-4">
+                  <p class="todayExtra" id="feels"></p>
+                </div>
+                <div class="col-md-4">
+                  <p class="todayExtra" id="wind"></p>
+                </div>
+                <div class="col-md-4">
+                  <p class="todayExtra" id="humidity"></p>
+                </div>
+              </div>
+              <div id="forecast"></div>
+            </div>
+          </div>
+          <p class="footer">
+            <a
+              href="https://github.com/Sonali020200/Deltatech-Gaming-Limited"
+              target="_blank"
+              >Open-source code </a
+            >by Sonali Burman
+          </p>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
