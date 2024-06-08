@@ -9,7 +9,7 @@ A simple weather forecasting application that provides current weather condition
 - [APIs Used](#apis-used)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
+- [Preview](#Preview)
 - [Live Demo](#live-demo)
 - [License](#license)
 - [Credits](#credits)
@@ -72,7 +72,7 @@ A simple weather forecasting application that provides current weather condition
 
 - Click on the °C or °F links to toggle between Celsius and Fahrenheit units for temperature.
 
-## Screenshots
+## Preview
 
 **Desktop view**
 
