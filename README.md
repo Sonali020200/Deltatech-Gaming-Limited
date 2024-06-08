@@ -81,7 +81,8 @@ A simple weather forecasting application that provides current weather condition
 
 **Mobile view**
 
-![Weather App Screenshot](./Weather-App/imgs/preview-2.png)
+[iPhone-13-PRO-weather-app-code-world.vercel.app-Z2aHtm9kEe.webm](https://github.com/Sonali020200/Deltatech-Gaming-Limited/assets/147674653/ba2de88d-dfbd-48aa-bc31-5d0099d95956)
+
 
 
 ## Live Demo
